@@ -1,6 +1,6 @@
 [submodule "Backend"]
 	path = Backend
-	url = git@github.com:AlberoneRamos/RabbitMQForum-Csharp.git
+	url = https://github.com/AlberoneRamos/RabbitMQForum-Csharp.git
 [submodule "Frontend"]
 	path = Frontend
-	url = git@github.com:AlberoneRamos/RabbitMQForum-React.git
+	url = https://github.com/AlberoneRamos/RabbitMQForum-React.git
