@@ -8,7 +8,7 @@ This is the Frontend for the RabbitMQ C# Forum.
 
 ### Frontend
 
-Since the frontend is made in React, you should have `npm` and `node` installed. If you don't have those, Install them [Here](https://nodejs.org/en/download/).
+Since the frontend was made in React, you should have `npm` and `node` installed. If you don't have those, Install them [Here](https://nodejs.org/en/download/).
 After installing npm and node, at the root directory:
 
 ```zsh
@@ -22,16 +22,7 @@ npm start
 To run the backend, you'll need to install .NET. After that, you should run the following commands from the **root directory**:
 
 ```zsh
-cd Backend/Consumer
-dotnet run
-```
-
-### MessagingApi
-
-To run the backend, you'll need to install .NET. After that, you should run the following commands from the **root directory**:
-
-```zsh
-cd Backend/MessagingApi
+cd Backend
 dotnet run
 ```
 
