@@ -6,6 +6,12 @@ This is the Frontend for the RabbitMQ C# Forum.
 
 ## How to run it
 
+### RabbitMQ Configuration
+Since this project uses STOMP, it needs `rabbitmq_web_stomp` to be enabled. This can be achieved by running the following command:
+```zsh
+rabbitmq-plugins enable rabbitmq_web_stomp
+```
+
 ### Frontend
 
 Since the frontend was made in React, you should have `npm` and `node` installed. If you don't have those, Install them [Here](https://nodejs.org/en/download/).
